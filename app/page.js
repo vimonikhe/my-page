@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         <div className={styles.myworksintro}>
           {
-            "A selection of my projects, vairous web applications I've successfully built and deployed."
+            " A selection of my projects, vairous web applications I've successfully built and deployed."
           }
         </div>
         <div className={styles.myworkswrapper}>
