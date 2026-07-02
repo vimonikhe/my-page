@@ -393,7 +393,9 @@ body {
   border: none;
   background: rgb(49, 59, 56);
   color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .githubdetails {
   height: 50;
@@ -469,7 +471,7 @@ body {
   border: none;
   background: rgb(49, 59, 56);
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,13 +506,15 @@ body {
 }
 .linkedincontactbutton {
   height: 50;
-  width: 50;
+  width: 60;
   border-radius: 20;
   border: none;
   background: rgb(49, 59, 56);
   color: white;
   font-size: 30;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .linkedindetails {
   height: 50;
