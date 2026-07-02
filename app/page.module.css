@@ -424,14 +424,16 @@ body {
   border: 0.3 solid rgb(89, 219, 165);
 }
 .phonecontactbutton {
-  height: 50;
-  width: 50;
+  height: 50px;
+  width: 50px;
   border-radius: 20px;
   border: none;
   background: rgb(49, 59, 56);
   color: white;
   font-size: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .phonedetails {
   height: 50;
@@ -468,7 +470,9 @@ body {
   background: rgb(49, 59, 56);
   color: white;
   font-size: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .emaildetails {
   height: 50;
