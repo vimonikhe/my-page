@@ -24,7 +24,7 @@ export default function Home() {
               target="_blank"
             >
               {" "}
-              <button className={styles.myresume}>My Resume 🡻</button>
+              <button className={styles.myresume}>My Resume 👨🏻‍💼</button>
             </a>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
             <div className={styles.victorimonikhe}>Victor Imonikhe</div>
             <div className={styles.introduction}>
               {
-                " A Front-end web developer passionate about creating responsive,user-friendly, and visually appealing websites. I enjoy turning ideas into clean, functional interfaces that deliver a great user experience across all devices."
+                " I build responsive, accessible, and user-friendly web applications using React, Next.js, JavaScript,Typescript and modern CSS. I'm currently seeking opportunities as a Frontend Developer where I can contribute while continuing to grow."
               }{" "}
               <span className={styles.connect}>Let's connect!</span>
             </div>
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
         </div>
         <div id="projects" className={styles.websitesheading}>
-          Websites <span className={styles.built}>I've Built</span>{" "}
+          My <span className={styles.built}>Projects</span>{" "}
         </div>
         <div className={styles.myworksintro}>
           {
