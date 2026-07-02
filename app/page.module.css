@@ -18,7 +18,19 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  animation: hideIntro 2s forwards;
 }
+@keyframes hideIntro {
+  0%,
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    visibility: show;
+  }
+}
+
 .madebyvictor {
   color: whitesmoke;
   padding: 8px 5px 8px 5px;
@@ -54,6 +66,14 @@ body {
   width: 100%;
   background-color: rgb(5, 5, 5);
   padding: 50px 0px 0px 0px;
+  opacity: 0;
+  animation: showSite 1.5s forwards;
+  animation-delay: 2s;
+}
+@keyframes showSite {
+  to {
+    opacity: 1;
+  }
 }
 .mobileimage {
   height: 160;
@@ -480,7 +500,7 @@ body {
 }
 .linkedincontactbutton {
   height: 50;
-  width: 70;
+  width: 50;
   border-radius: 20;
   border: none;
   background: rgb(49, 59, 56);
@@ -527,6 +547,17 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: sans-serif;
+    animation: hideIntro 2s forwards;
+  }
+  @keyframes hideIntro {
+    0%,
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      visibility: show;
+    }
   }
   .madebyvictor {
     color: whitesmoke;
@@ -589,6 +620,14 @@ body {
     min-height: 2150;
     padding: 50px 0px 0px 20px;
     box-sizing: border-box;
+    opacity: 0;
+    animation: showSite 1.5s forwards;
+    animation-delay: 2s;
+  }
+  @keyframes showSite {
+    to {
+      opacity: 1;
+    }
   }
   .herosectionandimage {
     display: flex;

@@ -49,7 +49,7 @@ export default function Home() {
               }{" "}
               <span className={styles.connect}>Let's connect!</span>
             </div>
-            <div id="contact" className={styles.socials}>
+            <div className={styles.socials}>
               <a
                 href="tel:08112825969"
                 target="_blank"
@@ -243,7 +243,7 @@ export default function Home() {
         <div className={styles.connect2}>
           {"Let's"} <span className={styles.connectspan}>Connect</span>
         </div>
-        <div className={styles.connectcards}>
+        <div id="contact" className={styles.connectcards}>
           <Link
             className={styles.githubwrapper}
             href="https://github.com/vimonikhe"
