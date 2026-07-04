@@ -103,6 +103,20 @@ body {
   margin: 25px 0px 10px 0px;
   text-align: center;
   color: whitesmoke;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease-out forwards;
+  animation-delay: 2s;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .im {
   background: linear-gradient(to right, rgb(99, 248, 186), rgb(9, 198, 119));
@@ -115,6 +129,10 @@ body {
   font-weight: 800;
   text-align: center;
   color: whitesmoke;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease-out forwards;
+  animation-delay: 2s;
 }
 .introduction {
   padding: 10px 5px 0px 5px;
@@ -124,6 +142,10 @@ body {
   line-height: 1.6;
   text-align: center;
   color: rgb(195, 197, 196);
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease-out forwards;
+  animation-delay: 2s;
 }
 .connect {
   background: linear-gradient(to right, rgb(99, 248, 186), rgb(9, 198, 119));
@@ -135,6 +157,10 @@ body {
   padding: 20px 0px 0px 0px;
   text-align: center;
   column-gap: 5;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease-out forwards;
+  animation-delay: 2.2s;
 }
 .contactme {
   background: linear-gradient(to right, rgb(99, 248, 186), rgb(9, 198, 119));
@@ -642,7 +668,22 @@ body {
   .herosectionandimage {
     display: flex;
     justify-content: space-between;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slideUp 0.8s ease-out forwards;
+    animation-delay: 2s;
   }
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   .herosection {
     color: whitesmoke;
     margin: 0 0 0 50px;
