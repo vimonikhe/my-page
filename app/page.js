@@ -102,8 +102,8 @@ export default function Home() {
               >
                 <button className={styles.github}>
                   <img
-                    className={styles.foto}
-                    src="/github.png"
+                    className={styles.fotos}
+                    src="/github.jpg"
                     height="19"
                     width="18"
                     alt="github"
@@ -251,7 +251,13 @@ export default function Home() {
           >
             <div className={styles.githubcontact}>
               <button className={styles.githubcontactbutton}>
-                <img src="/github.png" height="25" width="25" alt="github" />
+                <img
+                  className={styles.fotoss}
+                  src="/github.jpg"
+                  height="25"
+                  width="25"
+                  alt="github"
+                />
               </button>
               <div className={styles.githubdetails}>
                 <div className={styles.githubdetails1}>GITHUB</div>

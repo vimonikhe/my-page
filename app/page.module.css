@@ -218,6 +218,11 @@ body {
   height: 15;
   width: 15;
 }
+.fotos {
+  height: 15;
+  width: 15;
+  border-radius: 20;
+}
 .imageprofile {
   display: none;
 }
@@ -423,6 +428,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fotoss {
+  border-radius: 20;
 }
 .githubdetails {
   height: 50;
@@ -813,6 +821,11 @@ body {
     cursor: pointer;
     font-size: 23;
   }
+  .fotos {
+    border-radius: 20;
+    height: 17;
+    width: 17;
+  }
   .socialbox {
     padding: 0 7 7 7;
   }
@@ -1038,6 +1051,9 @@ body {
     border: none;
     background: rgb(49, 59, 56);
     color: white;
+  }
+  .fotoss {
+    border-radius: 20;
   }
   .githubdetails {
     height: 50;
