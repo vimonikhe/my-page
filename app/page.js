@@ -24,7 +24,7 @@ export default function Home() {
               target="_blank"
             >
               {" "}
-              <button className={styles.myresume}>My Resume 👨🏻‍💼</button>
+              <button className={styles.myresume}>My Resume 👤 </button>
             </a>
           </div>
         </div>
