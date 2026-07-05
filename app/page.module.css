@@ -90,7 +90,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
   100% {
     transform: translateY(0);
@@ -838,7 +838,7 @@ body {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-30px);
+      transform: translateY(-25px);
     }
     100% {
       transform: translateY(0);
@@ -887,11 +887,11 @@ body {
     padding: 0 0 20 0;
     margin: 40 0 20 0;
     border-radius: 20;
-    animation: float 4s ease-in-out infinite;
   }
   .card1:hover {
     opacity: 0.6;
     cursor: pointer;
+    animation: float 4s ease-in-out infinite;
   }
   .marshallswears {
     color: rgb(158, 160, 159);
@@ -925,11 +925,11 @@ body {
     padding: 0 0 20 0;
     margin: 40 0 20 0;
     border-radius: 20;
-    animation: float 4s ease-in-out infinite;
   }
   .card2:hover {
     opacity: 0.6;
     cursor: pointer;
+    animation: float 4s ease-in-out infinite;
   }
   .dietpage {
     color: rgb(158, 160, 159);
@@ -958,11 +958,11 @@ body {
     padding: 0 0 20 0;
     margin: 40 0 20 0;
     border-radius: 20;
-    animation: float 4s ease-in-out infinite;
   }
   .card3:hover {
     opacity: 0.6;
     cursor: pointer;
+    animation: float 4s ease-in-out infinite;
   }
   .cyooner {
     color: rgb(158, 160, 159);
@@ -991,11 +991,11 @@ body {
     padding: 0 0 20 0;
     margin: 40 0 20 0;
     border-radius: 20;
-    animation: float 4s ease-in-out infinite;
   }
   .card4:hover {
     opacity: 0.6;
     cursor: pointer;
+    animation: float 4s ease-in-out infinite;
   }
   .votegreen {
     color: rgb(158, 160, 159);
