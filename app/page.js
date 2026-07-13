@@ -89,13 +89,6 @@ export default function Home() {
                 </button>
               </a>
               <a
-                href="https://www.instagram.com/_21st_century_boy_?igsh=MWFjZzlycnAwN3BwYw%3D%3D&utm_source=qhttps://www.instagram.com/_21st_century_boy_?igsh=MWFjZzlycnAwN3BwYw%3D%3D&utm_source=qr"
-                target="_blank"
-                className={styles.socialbox}
-              >
-                <button className={styles.instagram}>🅾</button>
-              </a>
-              <a
                 href="https://github.com/vimonikhe"
                 target="_blank"
                 className={styles.socialbox}
